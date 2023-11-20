@@ -1,0 +1,72 @@
+.board {
+  display: flex;
+  justify-content: space-around;
+}
+
+.column {
+  flex: 1;
+  margin: 5px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.card {
+  margin-bottom: 10px; 
+  padding: 10px; 
+  border: 1px solid #ddd;
+  border-radius: 8px; 
+  background-color: #d8cce3;
+  width: 90%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.column:not(:last-child) {
+  margin-right: 10px; 
+}
+
+.ticket {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px; /* Adjusted space between tickets */
+  width: 65%;
+}
+
+.priority-icon {
+  margin-right: 5px;
+}
+
+.dropdown {
+  display: block;
+}
+
+.status-icon {
+  width: 4%;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px; /* Adjusted padding */
+  margin-bottom: 10px; /* Adjusted margin */
+}
+
+.card-header h4 {
+  margin: 0;
+}
+
+.card-body {
+  padding: 10px;
+}
+
+.tag {
+  display: flex;
+  align-items: center;
+}
+
+.tag svg {
+  margin-right: 5px;
+}
